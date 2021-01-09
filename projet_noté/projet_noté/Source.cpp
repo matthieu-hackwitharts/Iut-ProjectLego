@@ -15,6 +15,7 @@ int main(int argn, char* argv[]) {//entête imposée
 	if (SDL_Init(SDL_INIT_VIDEO) != 0) {
 		cout << "Echec à l’ouverture";
 		return 1;
+		//ceci est un trest github
 	}
 
 	//on crée la fenêtre
