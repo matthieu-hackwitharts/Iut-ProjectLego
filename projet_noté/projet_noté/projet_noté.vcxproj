@@ -142,10 +142,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\config_sdl.h" />
+    <ClInclude Include="config_sdl.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="headers.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Downloads\test.cpp" />
+    <ClCompile Include="config_sdl.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
