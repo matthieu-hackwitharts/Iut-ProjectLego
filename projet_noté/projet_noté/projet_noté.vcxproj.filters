@@ -18,7 +18,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClInclude Include="..\..\..\..\..\Desktop\config_sdl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Downloads\test.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

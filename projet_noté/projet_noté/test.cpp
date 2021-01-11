@@ -47,23 +47,23 @@ int main(int argn, char* argv[]) {//entête imposée
 
 	SDL_Rect button2;
 	button2.x = LARGEUR / 2 - 400;
-	button.y = HAUTEUR / 2 - 100;
+	button.y = HAUTEUR / 2 - 300;
 	button2.w = 100;
 	button2.h = 50;
-	SDL_SetRenderDrawColor(rendu, 0, 92, 61, 255);
+	SDL_SetRenderDrawColor(rendu, 236, 92, 61, 255);
 	SDL_RenderFillRect(rendu, &button2);
 
 
 	SDL_RenderPresent(rendu);
 
-
-
+	
+	
 
 	bool continuer = true;   //booléen fin de programme
 	SDL_Event event;
 
-	int x, y;//gestion des évènements souris/clavier, 
-					//SDL_Event est de type struct
+	//int x, y;//gestion des évènements souris/clavier, 
+	//				//SDL_Event est de type struct
 	while (continuer)
 	{
 		SDL_WaitEvent(&event);//attente d’un évènement
@@ -86,9 +86,21 @@ int main(int argn, char* argv[]) {//entête imposée
 					}
 				}
 			}
-
 		}
+		
+			
+
+			
 	}
+
+
+	
+
+
+
+			
+
+		
 
 	//destruction du renderer à la fin
 	SDL_DestroyRenderer(rendu);
@@ -100,7 +112,6 @@ int main(int argn, char* argv[]) {//entête imposée
 	SDL_Quit();
 	return 0;
 }
-	
 
 
 
