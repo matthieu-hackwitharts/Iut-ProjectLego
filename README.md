@@ -1,2 +1,2 @@
 # Iut-ProjectLego
-A greate team project 
+A great team project 
